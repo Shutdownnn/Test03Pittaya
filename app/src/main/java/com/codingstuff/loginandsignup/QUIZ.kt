@@ -18,7 +18,7 @@ class QUIZ : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_quiz)
 
         fun showDefaultDialog(context: Context) {
             val alertDialog = AlertDialog.Builder(context)
@@ -35,7 +35,6 @@ class QUIZ : AppCompatActivity() {
 
         A.setOnClickListener {
             showDefaultDialog(this)
-
         }
 
         B.setOnClickListener {
@@ -44,7 +43,7 @@ class QUIZ : AppCompatActivity() {
 
         C.setOnClickListener {
             num++
-            val intent = Intent(this@QUIZ, one::class.java)
+            val intent = Intent(this, one::class.java)
             startActivity(intent)
         }
 

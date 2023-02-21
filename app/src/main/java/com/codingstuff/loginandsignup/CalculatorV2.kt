@@ -21,7 +21,7 @@ class CalculatorV2 : AppCompatActivity() {
     var operandlock = 2 // 1 = accept receive operator , 2 = not receive operator
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_calculator_v2)
 
         //Assign number from number button
         zero.setOnClickListener{

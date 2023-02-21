@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
         <activity
-            android:name=".QUIZ"
+            android:name=".quizz"
             android:exported="false" />
         <activity
-            android:name=".CalculatorV2"
+            android:name=".Newquiz"
+            android:exported="false" />
+        <activity
+            android:name=".Mainquiz"
             android:exported="false" />
         <activity
             android:name=".SignInActivity"
@@ -24,6 +27,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".QUIZ"
+            android:exported="true" />
+        <activity
+            android:name=".CalculatorV2"
+            android:exported="false" />
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
